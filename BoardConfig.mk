@@ -19,5 +19,8 @@
 
 DEVICE_PATH := device/oneplus/enchilada
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OnePlus6,enchilada
+
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
