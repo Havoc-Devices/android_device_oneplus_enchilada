@@ -27,6 +27,11 @@ $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Official
+HAVOC_BUILD_TYPE := Official
+HAVOC_MAINTAINER := Vikas (OptimussPriime)
+HAVOC_GROUP_URL := https://t.me/havoc_oneplus6t
+
 # Live Wallpapers
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
