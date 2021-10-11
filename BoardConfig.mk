@@ -17,6 +17,10 @@
 # Inherit from oneplus sdm845-common
 -include device/oneplus/sdm845-common/BoardConfigCommon.mk
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+
 DEVICE_PATH := device/oneplus/enchilada
 
 # Assert
