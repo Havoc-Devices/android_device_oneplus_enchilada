@@ -21,6 +21,10 @@
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 
+# Prebuilt recovery ramdisk
+-include device/oneplus/enchilada/recovery/prebuilt_recovery.mk
+
+
 DEVICE_PATH := device/oneplus/enchilada
 
 # Assert
